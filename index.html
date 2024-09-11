@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Madhav Ganesh" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Madhav Ganesh</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://linkedin.com/in/madhav-ganesh" class="link">MG</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#internship">Internship</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Madhav Ganesh.</span></h1>
+        <h2 class="about__role">Aspiring Data Scientist, Cyber Security & Data Science</h2>
+        <p class="about__desc">
+          I'm a passionate tech enthusiast based in Bangalore, India, with a background in software engineering and data science. Currently, I'm in my final year pursuing a Bachelor of Computer Applications at Christ University.
+        </p>
+        <br />
+        <a href="mailto:madhavganesh48@gmail.com">Mail: madhavganesh48@gmail.com</a><br />
+        <p>Contact: +91 7736962220</p>
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1rMGEeIoumuYf11vehiCv3U6qXljA-1Ex/view?usp=sharing" target="_blank">
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/madhavgan" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/madhav-ganesh" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Suraksha - Disaster Management System</h3>
+            <p class="project__description">
+              Developed a comprehensive disaster management system that helps authorities respond quickly to emergencies using real-time data and analytics.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Firebase</li>
+            </ul>
+
+            <a
+              href="https://github.com/madhavgan/suraksha" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Android App - Task Manager</h3>
+            <p class="project__description">
+              Built an Android application to manage daily tasks with notifications and deadline tracking.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">XML</li>
+              <li class="project__stack-item">Android Studio</li>
+            </ul>
+
+            <a
+              href="https://github.com/madhavgan/task-manager" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Internships -->
+      <section id="internship" class="section internship">
+        <h2 class="section__title">Internship</h2>
+
+        <div class="project">
+          <h3>Prodigy Infotech</h3>
+          <p class="project__description">
+            Currently working on Android application development and backend services, focusing on creating efficient, scalable applications.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Android Studio</li>
+            <li class="project__stack-item">Java</li>
+            <li class="project__stack-item">Firebase</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Android Development</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Data Analysis</li>
+          <li class="skills__list-item btn btn--plain">Firebase</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Blender</li>
+        </ul>
+      </section>
+
+      <!-- Certificates -->
+      <section id="certificates" class="section certificates">
+        <h2 class="section__title">Certificates</h2>
+        <p class="certificates__desc">Here are some of the certifications I have completed:</p>
+        <ul class="certificates__list">
+          <li class="certificates__list-item">
+            <a href="https://www.linkedin.com/in/madhav-ganesh/details/certifications/" target="_blank">
+              View Certificates on LinkedIn
+            </a>
+          </li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="https://linkedin.com/in/madhav-ganesh"
+        class="link footer__link"
+      >  
+        Created by Madhav Ganesh
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
